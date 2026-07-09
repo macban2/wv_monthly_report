@@ -449,7 +449,7 @@ function renderMonth() {
         '</tr>';
     }).join('');
     document.getElementById('taskFoot').innerHTML =
-      '<tr><td colspan="3" style="color:var(--text-secondary);">합계</td><td style="text-align:right;color:var(--orange);">' + fmt(actualUsed) + ' H</td></tr>';
+      '<tr><td colspan="3" style="color:var(--text-secondary);">합계</td><td style="text-align:right;color:var(--orange);white-space:nowrap;">' + fmt(actualUsed) + ' H</td></tr>';
   }
 
   renderChart();
